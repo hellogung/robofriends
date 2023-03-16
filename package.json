@@ -1,10 +1,11 @@
 {
-  "name": "hellogung",
+  "name": "robofriends",
+  "homepage": "https://hellogung.github.io/robofriends",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "tailwind": "npx tailwindcss -o src/tailwind.css --minify",
     "build": "npm run tailwind && vite build",
     "preview": "vite preview"
@@ -12,6 +13,7 @@
   "dependencies": {
     "@headlessui/react": "^1.7.13",
     "@heroicons/react": "^2.0.16",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.2"
